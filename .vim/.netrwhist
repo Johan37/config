@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/repo/xjohaph/ncmain/cc/crbs/build/lm/frumLmU/cvohcsbuild'
+let g:netrw_dirhist_2='/repo/xjohaph/ncmain/cc/crbs/nc/testFramework/kp5suites'
+let g:netrw_dirhist_3='/repo/xjohaph/ncmain/out/cxp/CVOHRBSNC_CXP9028961_26'
