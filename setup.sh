@@ -9,4 +9,5 @@ rm -rf ~/.vim 2> /dev/null
 ln -s $(pwd)/.bashrc ~/.bashrc
 ln -s $(pwd)/.vimrc ~/.vimrc
 ln -s $(pwd)/.vim ~/.vim
+ln -s $(pwd)/.tmux.conf ~/.tmux.conf
 
