@@ -5,6 +5,9 @@ rm ~/.bashrc
 rm ~/.vimrc
 rm -rf ~/.vim 2> /dev/null
 
+#Create useful dirs
+mkdir -p ~/projects
+
 # Create links to repo
 ln -s $(pwd)/.bashrc ~/.bashrc
 ln -s $(pwd)/.vimrc ~/.vimrc
