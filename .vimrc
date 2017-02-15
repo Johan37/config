@@ -49,16 +49,6 @@ set laststatus=2
 set wildmode=longest:full
 set wildmenu
 
-" Git branch on status line 
-"set statusline=%<%f\    " Filename
-"set statusline+=%w%h%m%r " Options
-"set statusline+=%{fugitive#statusline()} "  Git Hotness
-"set statusline+=\ [%{&ff}/%Y]            " filetype
-"set statusline+=\ [%{getcwd()}]          " current dir
-"set statusline+=%#warningmsg#
-"set statusline+=%*
-"set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
-
 """""""""""""""""""""""
 " Search
 """""""""""""""""""""""
@@ -185,14 +175,4 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows = 0
 " let g:NERDTreeDirArrowExpandable = 'a'
 " let g:NERDTreeDirArrowCollapsible = '-'
-
-" Syntastic
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
-"
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 0
 
