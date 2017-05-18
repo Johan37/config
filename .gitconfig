@@ -1,0 +1,23 @@
+[user]
+	name = xjohaph
+	email = johan.philipsson@sigma.se
+[core]
+	editor = vim
+	pager = less -R
+[merge]
+	tool = meld
+[diff]
+	tool = meld
+[push]
+	default = simple
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	dt = difftool -y
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    branchdate = !git for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:iso8601)%09%(refname)' refs/heads 
+	mt = mergetool
+[mergetool]
+	keepBackup = false
