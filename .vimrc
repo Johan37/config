@@ -10,17 +10,11 @@ endif
 " Move vim into the new millenium
 set nocompatible
 
-" Sets how many lines of history VIM has to remember
-"set history=100
-
-" Set number of undolevels 
-"set undolevels=100
-
 " Make vim copy to System clipboard
 set clipboard=unnamed
 
 " For regular expressions turn magic on
-"set magic
+set magic
 
 """"""""""""""""""""""
 " VIM user interface
@@ -42,6 +36,9 @@ set novisualbell
 " Enable mouse support
 set mouse=a
 "set ttymouse=sgr
+
+" Make backspace behave like normal programs
+set backspace=indent,eol,start
 
 """"""""""""""""""""""
 " Status bar
@@ -209,3 +206,4 @@ let g:NERDTreeDirArrows = 0
 "let g:syntastic_auto_loc_list = 1
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
+
