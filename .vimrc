@@ -1,5 +1,5 @@
 """""""""""
-" General 
+" General
 """""""""""
 
 " Source system spcific config
@@ -40,6 +40,9 @@ set mouse=a
 " Make backspace behave like normal programs
 set backspace=indent,eol,start
 
+" Show line lenght column
+set colorcolumn=100
+
 """"""""""""""""""""""
 " Status bar
 """"""""""""""""""""""
@@ -51,7 +54,7 @@ set laststatus=2
 set wildmode=longest:full
 set wildmenu
 
-" Git branch on status line 
+" Git branch on status line
 "set statusline=%<%f\    " Filename
 "set statusline+=%w%h%m%r " Options
 "set statusline+=%{fugitive#statusline()} "  Git Hotness
@@ -68,7 +71,7 @@ set wildmenu
 " Ignore case when searching
 set ignorecase
 
-" When searching try to be smart about cases 
+" When searching try to be smart about cases
 set smartcase
 
 " Highlight search results
@@ -87,23 +90,23 @@ set path+=**
 set number
 
 " Show relative line numbers by default
-"set relativenumber
+set relativenumber
 
 " Toggle relative line numbers with Ctrl + x
-"function! NumberToggle()
-"  if(&relativenumber == 1)
-"    set norelativenumber
-"    set number
-"  else
-"    set relativenumber
-"  endif
-"endfunc
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set norelativenumber
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
 
-"nnoremap <C-x> :call NumberToggle()<cr>
+nnoremap <C-x> :call NumberToggle()<cr>
 
 " Don't use relative line numbers in insert mode
-"autocmd InsertEnter * : set norelativenumber | set number
-"autocmd InsertLeave * : set relativenumber
+autocmd InsertEnter * : set norelativenumber | set number
+autocmd InsertLeave * : set relativenumber
 
 """""""""""""""""""""
 " Files and Backup
@@ -148,7 +151,7 @@ set tabstop=2
 
 " Make Enter behave properly
 nmap <S-ENTER> O<ESC>
-nmap <CR> o<ESC>			
+nmap <CR> o<ESC>
 
 " Y to yank to eol, the missing vim command
 nmap Y y$
@@ -206,4 +209,3 @@ let g:NERDTreeDirArrows = 0
 "let g:syntastic_auto_loc_list = 1
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
-
