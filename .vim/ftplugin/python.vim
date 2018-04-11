@@ -6,3 +6,6 @@ setlocal expandtab
 setlocal autoindent
 setlocal smarttab
 setlocal formatoptions=croql
+
+" Enable folding
+setlocal foldmethod=indent

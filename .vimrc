@@ -145,6 +145,9 @@ set smarttab
 set shiftwidth=2
 set tabstop=2
 
+" Enable folding
+set foldmethod=syntax
+
 """"""""""
 " Keys
 """"""""""
