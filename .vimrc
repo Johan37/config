@@ -11,7 +11,7 @@ endif
 set nocompatible
 
 " Make vim copy to System clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " For regular expressions turn magic on
 set magic
