@@ -125,11 +125,15 @@ set autoread
 " Color scheme
 """""""""""""
 
+" Basic color setup
 set encoding=utf-8
+set t_Co=256
 
+" Enable syntax
 syntax on
-"set background=dark
-colorscheme badwolf
+
+" Decent built in color scheme
+colorscheme delek
 
 """""""""""""""""""""""""""""""""
 " Text, tabs and indent related
