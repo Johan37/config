@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Remove old config files
-rm ~/.bashrc
-rm ~/.vimrc
+rm -f ~/.bashrc
+rm -f ~/.vimrc
 rm -rf ~/.vim 2> /dev/null
 
 #Create useful dirs
