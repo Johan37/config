@@ -133,7 +133,7 @@ set t_Co=256
 syntax on
 
 " Decent built in color scheme
-colorscheme delek
+colorscheme badwolf
 
 """""""""""""""""""""""""""""""""
 " Text, tabs and indent related
@@ -149,8 +149,9 @@ set smarttab
 set shiftwidth=2
 set tabstop=2
 
-" Enable folding
-set foldmethod=syntax
+" Disable folding as default
+set nofoldenable
+" set foldmethod=syntax
 
 """"""""""
 " Keys
